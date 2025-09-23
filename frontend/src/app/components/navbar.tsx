@@ -104,11 +104,11 @@ export const Navbar = () => {
   return (
     <>
       <nav
-        className=" backdrop-blur-md backdrop-filter
+        className=" backdrop-blur-3xl backdrop-filter bg-black/40
  sticky top-0 z-[99] shadow-lg"
       >
-        <div className="bg-gray-100/40 md:rounded-b-2xl max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-between items-center h-20">
+        <div className=" md:rounded-b-2xl  mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex justify-between md:justify-around items-center h-20">
             {/* Logo */}
             <div className="flex-shrink-0">
               <Link href="/" className="flex items-center">

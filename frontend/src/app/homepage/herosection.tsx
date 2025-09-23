@@ -70,7 +70,7 @@ const HeroSection = () => {
         src={HeroImage}
         alt="Ulla Johnson Spring 2026"
         fill
-        className="object-cover object-center"
+        className="object-cover bg-fixed object-top"
         priority
         sizes="110vw"
       />
@@ -86,7 +86,7 @@ const HeroSection = () => {
             America’s foremost womenswear, menswear, jewelry and accessory
             designers.
           </h4>
-          <button className="capitalize text-lg px-3 py-2 bg-gray-200 text-gray-800">
+          <button className="capitalize text-sm md:text-lg rounded-lg px-3 py-2 bg-gray-200 text-gray-800">
             Learn More
           </button>
         </div>

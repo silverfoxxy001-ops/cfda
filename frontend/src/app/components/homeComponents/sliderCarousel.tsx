@@ -9,7 +9,7 @@ import { NextButton, PrevButton, usePrevNextButtons } from "./sliderButtons";
 import "./css/slider.css";
 import Image from "next/image";
 import { slides } from "@/app/homepage/herosection";
-import { ChevronRight } from "lucide-react";
+import { ChevronRight, LucideMoveRight, MoveRightIcon } from "lucide-react";
 import Link from "next/link";
 export type PropType = {
   slides: slides[];
@@ -64,7 +64,7 @@ const SliderCarousel: React.FC<PropType> = (props) => {
                     </span>
                     <span className="text-sm ">{slide.title}</span>
                     <Link href="/" className=" mt-3 font-bold size-7">
-                      <ChevronRight size={32} />
+                      <LucideMoveRight size={32} />
                     </Link>
                   </div>
                 </div>
